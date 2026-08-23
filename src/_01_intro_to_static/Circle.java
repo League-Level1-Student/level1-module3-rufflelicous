@@ -12,6 +12,8 @@ public class Circle {
      */
     int radius;
     Color color;
+    
+
 
     public Circle(int r, Color c) {
         radius = r;
@@ -20,6 +22,7 @@ public class Circle {
         Random rand = new Random();
         x = rand.nextInt(Canvas.WIDTH / 2);
         y = rand.nextInt(Canvas.HEIGHT / 2);
+
     }
 
     void draw(Graphics g) {
