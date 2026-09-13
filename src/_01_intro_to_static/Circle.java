@@ -8,7 +8,7 @@ public class Circle {
     int x, y;
 
     /*
-     * Add/remove the word "static" at the beginning of these variables
+     * Add/remove th  e word "static" at the beginning of these variables
      */
     int radius;
     Color color;
