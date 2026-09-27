@@ -25,11 +25,19 @@ public class GridWorld {
 			Location gra = new Location(5, 5);
 			Location fl = new Location(5, 6);
 			Location a = new Location(5, 4);
-			wow.add(gra, goat);
-			wow.add(fl, flowey);
-			wow.add(a, aqua);
+			//wow.add(gra, goat);
+			//wow.add(fl, flowey);
+			//wow.add(a, aqua);
 			
+			for(int e = 0; e < 10; e ++) {
+				for(int j = 0; j < 10; j++) {
+					Location er = new Location(e, j);
+					wow.add(er, flowey);
+				}
+			}
 
+			
+		
 	}
 
 }
